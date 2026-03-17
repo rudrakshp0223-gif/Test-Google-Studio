@@ -1,0 +1,52 @@
+[
+  {
+    "id": "auth-001",
+    "name": "User Login Flow - Standard Credentials",
+    "description": "Validates that a user can log in with correct email and password."
+  },
+  {
+    "id": "auth-002",
+    "name": "User Login Flow - Invalid Password",
+    "description": "Ensures the system rejects incorrect passwords with a 401."
+  },
+  {
+    "id": "auth-003",
+    "name": "Login Redundancy Check",
+    "description": "A duplicate of auth-001 used to test the optimizer's detection logic."
+  },
+  {
+    "id": "cart-101",
+    "name": "Add Item to Cart",
+    "description": "Verifies that clicking 'Add to Cart' updates the cart count."
+  },
+  {
+    "id": "cart-102",
+    "name": "Remove Item from Cart",
+    "description": "Ensures items can be removed and the total price updates correctly."
+  },
+  {
+    "id": "checkout-201",
+    "name": "Guest Checkout Process",
+    "description": "Validates the full checkout flow for unauthenticated users."
+  },
+  {
+    "id": "checkout-202",
+    "name": "Registered User Checkout",
+    "description": "Validates checkout flow using saved address and payment info."
+  },
+  {
+    "id": "api-health",
+    "name": "Global API Health Check",
+    "description": "Pings all major service endpoints to ensure 200 OK status."
+  },
+  {
+    "id": "profile-301",
+    "name": "Update Avatar Image",
+    "description": "Tests the upload and processing of user profile pictures."
+  },
+  {
+    "id": "profile-302",
+    "name": "Change Display Name",
+    "description": "Ensures name changes persist across the application."
+  }
+]
